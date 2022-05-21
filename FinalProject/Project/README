@@ -1,0 +1,186 @@
+					                                    Project plan
+
+My plans to completing the project :
+    1.Writing code diary each week 
+	How I will deal with any problems that could arise:
+	Whenever any problem arises I will first make sure I note down what the problems are in my diary.
+	I will check chrome debug tools to spot any obvious syntax errors and to locate the line or file 
+	that was causing issues and try to solve it before seeking support from a classroom mate over social
+	media or team then if the problem still can't be resolved I will contact by email teacher or attend 
+	CM for supports. To solve me I use google to examples and similar issues that other people have faced 
+	example on StackOverflow and p5 official website.
+
+    2.Initial plan: add listed features to the Drawing app
+        •	Editable Shape (1 week)
+                o	Able to create shapes and edit it
+        •	Square & ellipse eraser tool (1 week)
+                o	With an outline to show the area of the eraser is erasing
+                o	Adjustable size
+                o	Pop up window to inform user how to use it
+        •	Star trail (1week)
+                o	Size configures	
+        •	Uploading image (1week)
+                o	Drag and drop or Button to upload
+                o	Limit to only images formats
+        •   finishing up and testing (1 week)
+
+
+##############################################################################################################################
+______________________________________________________________________________________________________________________________
+					                                    Progress logs
+
+Week 1 :
+Features have implemented so far:
+    *eraserTool: started but very buggy and dose not work at all
+    *editShape : started but very buggy and dose not work at all
+
+End of week evaluation: 
+During week 1, I had a try to code the eraserTool and editShape function right into the file and I failed miserably without
+any researches because I felt it should be easy, later on I know I was quit wrong because I coding on top of others code in this case 
+the example template is difficult without a clear understanding of the code structure. The end result is that none of the function I 
+Have implemented is buggy and dose not work at all.
+
+Plan for next week:
+my plan for next week is start over and make sure I get a better view of the structure then restart my coding. If I get stuck and
+I can't solve it myself I will ask other people to seek help or ask in the VCH.
+
+______________________________________________________________________________________________________________________________
+
+Week 2 :
+Features have implemented so far:
+    * eraserTool 
+        completed:
+            1. functional ellipse eraser
+                //its working but its still buggy and could be improved where ellipse outliner is also drawing to the canvas 
+        incomplete:
+            1. Add a rectangle eraser
+            2. make eraser size Adjustable
+                //after research and experience with Photoshop I am thinking adding a slider to adjust the size
+                //However I am having problem with adding a slider to the toolbox section
+                //I am gonna use the VCH to seek helps and supports in next week
+
+            3. fix bug of setting the fill and stroke colour back 
+                to what was selected(at the moment I manually 
+                set it back to black)
+                
+            4. Adding pop up window when the tool is first selected for
+                better user experience. e.g. how to switch between ellipse and 
+                squared eraser and how to adjust the eraser size
+
+    * editShape 
+        completed:
+            1. functional editShape
+
+        incomplete:
+            1. Adding pop up window when the tool is first selected for better user experience. 
+    
+    Function that I have implemented to the sketch file
+        1. Check for weather the mouse is in the canvas 
+        2. check and load toolSelected function to load any tool that's been selected with its default configure settings
+
+
+
+End of week evaluation: 
+During week 2, I manage to have a basic working eraser tool and editshape tool working but is still incomplete. I was having problem 
+To find a way to add tool specific menus to the canvas because I was having problem to add multiple buttons. The edishape is functional but I 
+wasn't able to find a way to finish the shape.
+
+
+Plan for next week: I am going to attend the VCH again to seek help and continue with my coding and make sure I follow my schedule to start coding a new function
+Startracks.
+
+______________________________________________________________________________________________________________________________
+
+Week 3 :
+Features have implemented so far:
+    * eraserTool 
+        completed:
+            1. ellipse eraser
+                //there are still bugs causing weird issues to leave shape outlines when erasing areas
+                //I am going to make sure ellipse eraser is fine before adding rectangle eraser as it share almost the same code
+
+            incomplete:
+            1. Add a rectangle eraser
+            2. add a slider to change size of the eraser
+
+
+    * editShape 
+        completed:
+            1. functional editShape
+
+        incomplete:
+            1. Adding pop up window when the tool is first selected for
+                better user experience. 
+   
+    * sprayStars
+        completed:
+            1. basic star trails 
+                //its functional but its very basic and i am consider to improve it with more features to add to my incomplete list for next week
+   
+End of week evaluation: 
+During week 3, I manage to add buttons and tool menu and started the spraystars function but I felt i could improve it by adding more functions.
+However, by adding buttons the edit shape and eraser tool somehow I created new bugs which completely make the tools unusable again. 
+
+Plan for next week: 
+My plan for next week is to make the tool usable again and fix as much bugs as possible and complete erasertool, edishape and spraystar tools.
+
+______________________________________________________________________________________________________________________________
+
+Week 4 :
+Features have implemented so far:
+
+    * eraserTool 
+        1. Add a rectangle eraser
+        2. add a slider to change size of the eraser
+
+    * editShape 
+        1. Adding pop up window when the tool is first selected for better user experience. 
+    * sprayStars
+        *size,side and spary area configure tools
+            
+   
+End of week evaluation: 
+I spend a week fixing bugs and testing and i manage to get the tools working again. I have all so added the rectangel eraser, 
+slider to change the size of eraser. It did took me sometime research how to implemented sliders and grabbing the value from the slider to change to size.
+I was still having problem with edishape finish button but i manage to overcome this problem without having the button as when switching tools or click the 
+editshape tool icon again will automatically finish the button. in reality i didnt acctually fix this bug but I find a way of overcome to avoid the bug and 
+achieve the same result. I added a pop up window when the tool is first selected to notify the user how to finish the shape to improves user experience by over
+come confusions. I also spend time adding comments to help for easy readability and convert parts codes to functions so when i reuse to create and call other functions. 
+It is much easier to debug and understanding what the code is doing. However, I was having problem with changing the sparystar size.
+
+Plan for next week: 
+My plan for next week is to add a file import tool to upload image/drawings to the canvas and try fix the sparystar size issue.
+
+______________________________________________________________________________________________________________________________
+
+Week 5 :(last week)
+Features have implemented so far:
+
+    * eraserTool 
+
+    * editShape 
+
+    * sprayStars
+
+    * uploadimage
+        Code is implemented in the sketch.js and index.html file 
+            
+End of week evaluation: 
+In week 5, I spend all week trying to figguring out how to add a upload image function to allow the user to upload their drawings or image to the canvas.
+It took me hours doing research and watching tutorial on Youtube I manage to successfully add and complete this function. before when i upload the image it drawing will appear 
+at the button page of the drawing canvas, now the image will appear in the drawing canvas. However, I am still having problem with the sparystar size configureation, I had to 
+remove it.
+//reference tutorial and code adopted base on for the uploadingimage
+https://medium.com/front-end-weekly/draw-an-image-in-canvas-using-javascript-%EF%B8%8F-2f75b7232c63
+
+
+
+
+
+
+
+
+
+
+
+
